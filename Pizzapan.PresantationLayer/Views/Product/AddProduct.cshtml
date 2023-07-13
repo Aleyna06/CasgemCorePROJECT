@@ -1,0 +1,22 @@
+﻿@model Pizzapan.EntityLayer.Concrete.Product
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Ürün Ekleme Sayfası </h1>
+<form method="post">
+    <input type="text" class="form-control" asp-for="CategoryID" />
+    <label>Ürün Adı</label>
+    <input type="text" class="form-control" name="Name" />
+    <br />
+    <label>Açıklama</label>
+    <input type="text" class="form-control" name="Description" />
+    <br />
+    <label>Fiyat</label>
+    <input type="text" class="form-control" name="Price" />
+    <br />
+
+    <button class="btn btn-info">Ürünü Kaydet</button>
+</form>
+
