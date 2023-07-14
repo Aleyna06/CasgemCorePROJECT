@@ -18,10 +18,7 @@ namespace Piizapan.BusinessLayer.Concrete
             _contactDal = contactDal;
         }
 
-        public List<Contact> GetContactBySubjectWithTesekkur()
-        {
-            return _contactDal.GetContactBySubjectWithTesekkur();
-        }
+       
 
         public void TDelete(Contact t)
         {
@@ -31,6 +28,11 @@ namespace Piizapan.BusinessLayer.Concrete
         public Contact TGetByID(int id)
         {
             return _contactDal.GetByID(id);
+        }
+
+        public List<Contact> TGetContactBySubjectWithTesekkur()
+        {
+            return _contactDal.GetContactBySubjectWithTesekkur();
         }
 
         public List<Contact> TGetList()

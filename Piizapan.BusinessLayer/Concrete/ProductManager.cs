@@ -33,6 +33,11 @@ namespace Piizapan.BusinessLayer.Concrete
             return _productDal.GetList();
         }
 
+        public List<Product> TGetProductWithCategory()
+        {
+            return _productDal.GetProductWithCategory();
+        }
+
         public void TInsert(Product t)
         {
             _productDal.Insert(t);

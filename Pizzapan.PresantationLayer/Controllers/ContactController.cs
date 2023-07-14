@@ -27,5 +27,10 @@ namespace Pizzapan.PresantationLayer.Controllers
             _contactService.TDelete(value);
             return RedirectToAction("Index");
         }
+        public IActionResult GetMessageByTesekkur()
+        {
+            var values = _contactService.TGetContactBySubjectWithTesekkur();
+            return View(values);
+        }
     }
 }

@@ -19,7 +19,8 @@ namespace Pizzapan.PresantationLayer.Controllers
 
         public IActionResult Index()
         {
-            var values = _productService.TGetList();
+           // var values = _productService.TGetList();
+            var values = _productService.TGetProductWithCategory();
             return View(values);
         }
         [HttpGet]
