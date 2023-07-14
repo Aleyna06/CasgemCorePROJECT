@@ -19,6 +19,8 @@ namespace Pizzapan.PresantationLayer.Controllers
         [HttpGet]
         public IActionResult CreateCode()
         {
+            
+           
             string[] symbols = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M" };
             int c1, c2, c3, c4;
             Random random = new Random();
@@ -33,7 +35,17 @@ namespace Pizzapan.PresantationLayer.Controllers
         [HttpPost]
         public IActionResult CreateCode(Discount discount)
         {
-            return View();
+            discount.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            discount.EndlingDate = Convert.ToDateTime(DateTime.Now.AddDays(3));
+            _discountService.TInsert(discount);
+            return RedirectToAction("Index");
         }
+
+        public IActionResult CuponList()
+        {
+            var values = _discountService.TGetList();
+            return View(values);
+        }
+
     }
 }
