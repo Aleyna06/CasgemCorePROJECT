@@ -12,5 +12,6 @@ namespace Pizzapan.EntityLayer.Concrete
         public string Name { get; set; }
         public string SurName { get; set; }
         public string City { get; set; }
+        public int? ConfirmCode { get; set; }
     }
 }
