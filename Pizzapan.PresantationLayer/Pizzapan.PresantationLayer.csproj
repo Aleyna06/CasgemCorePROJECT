@@ -31,4 +31,8 @@
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Views\MainAboutUs\Index.cshtml" />
+  </ItemGroup>
+
 </Project>

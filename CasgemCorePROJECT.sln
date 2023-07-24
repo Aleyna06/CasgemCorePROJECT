@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzapan.EntityLayer", "Pizzapan.EntityLayer\Pizzapan.EntityLayer.csproj", "{BC1BC898-658D-4EE7-8C60-AEF6CE738850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzapan.EntityLayer", "Pizzapan.EntityLayer\Pizzapan.EntityLayer.csproj", "{BC1BC898-658D-4EE7-8C60-AEF6CE738850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzapan.DataAccessLayer", "Pizzapan.DataAccessLayer\Pizzapan.DataAccessLayer.csproj", "{9DA290D6-8029-4A07-AB2B-0A2EFE7E72A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzapan.DataAccessLayer", "Pizzapan.DataAccessLayer\Pizzapan.DataAccessLayer.csproj", "{9DA290D6-8029-4A07-AB2B-0A2EFE7E72A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzapan.PresantationLayer", "Pizzapan.PresantationLayer\Pizzapan.PresantationLayer.csproj", "{F19668C0-7462-4EAB-8519-4A544BD715C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzapan.PresantationLayer", "Pizzapan.PresantationLayer\Pizzapan.PresantationLayer.csproj", "{F19668C0-7462-4EAB-8519-4A544BD715C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piizapan.BusinessLayer", "Piizapan.BusinessLayer\Piizapan.BusinessLayer.csproj", "{DAD1E895-81EC-459D-8238-107D72A014C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Piizapan.BusinessLayer", "Piizapan.BusinessLayer\Piizapan.BusinessLayer.csproj", "{DAD1E895-81EC-459D-8238-107D72A014C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
